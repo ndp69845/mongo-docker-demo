@@ -39,7 +39,7 @@ public class App {
         try {
             
             Document document = new Document();
-            document.append("text", "Hello World!!!");
+            document.append("text", "Hello World");
             
             ds.getMongo()
               .getDatabase(App.DATABASE)
